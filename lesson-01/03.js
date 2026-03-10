@@ -9,7 +9,7 @@ let sum = 0;
 let a = 1;
 
 while (a <= 20) {
-  if (a % 2 == 0) {
+  if (a % 2 !== 0) {
     sum = sum + a;
   }
   a = a + 1;
