@@ -9,7 +9,7 @@
 
 let dice1 = Math.floor(Math.random() * 6) // your code
 let dice2 = Math.floor(Math.random() * 6) // your code
-let isWinningDouble = dice1 === dice2// your code
+let isWinningDouble = dice1 == dice2// your code
 
 /*
 console.log('Первый бросок: ' + dice1)
